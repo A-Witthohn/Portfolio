@@ -9,7 +9,7 @@ body,
 html {
     height: 100%;
     width: 100%;
-    background-color: aliceblue;
+    background-color: rgb(191, 199, 206);
 }
 
 
@@ -18,8 +18,8 @@ html {
 /*TOP OF PAGE*/
 /* HEADER*/
 header {
-    background-color: aliceblue;
     padding: 0px;
+    overflow: hidden;
 }
 
 /* Header, my name */
@@ -69,6 +69,7 @@ header nav ul {
     bottom: 8px;
     right: 16px;  
     color: aliceblue;  
+    text-align: center;
 }
 
 /*END OF BANNER IMAGE*/
@@ -86,8 +87,9 @@ header nav ul {
     font-size: 24px;
 }
 
-.about-me p {
+.about-me-text {
     margin: 25px;
+    font-size: 18px;
 }
 
 /*END FIRST SECTION*/
@@ -98,11 +100,10 @@ header nav ul {
 /*SECOND SECTION, PORTFOLIO*/
 /*grayscales all the images, !!! IMPORTANT NEED FEATURE HOVER REMOVES GRAYSCALE !!! */
 .portfolio {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
     align-items: center;
     justify-content: center;
     font-size: 24px;
+    overflow: hidden;
 
 }
 
@@ -112,7 +113,7 @@ header nav ul {
     position: relative;
     color: black;
     margin: 25px;
-    margin-bottom: 25;
+    margin-bottom: 25px;
 }
 
 /*LARGE IMAGE*/
@@ -122,15 +123,19 @@ header nav ul {
 }
 
 .family-shot img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     display: block;
     width: 100%;
     max-width: 1000px;
-    /*actual image width*/
     height: auto;
-    /* maintain aspect ratio*/
     margin: auto;
-    /*optional centering of image*/
     padding: 40px;
+}
+
+.family-shot img:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
 }
 
 /*SMALLER IMAGES*/
@@ -141,32 +146,32 @@ header nav ul {
 }
 
 .wyatt img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     display: block;
     width: 100%;
     max-width: 500px;
-    /*actual image width*/
     height: auto;
-    /* maintain aspect ratio*/
     margin: auto;
-    /*optional centering of image*/
     padding: 40px;
+
 }
 
 .wyatt img:hover {
-    filter: none;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
 }
 /*END OF PORTFOLIO SECTION*/
 
 
 
+
 /*THIRD/FINAL SECTION, CONTACT ME*/
+
 #contact-me {
     text-align: center;
     position: relative;
     color: black;
-    margin: 25px;
-    padding-top: 25px;
-    margin-bottom: 25px;
     display: block;
     font-size: 24px;
 }
@@ -187,43 +192,3 @@ header nav ul {
 
 
 
-
-
-/*Option to add vertical line, if time allows, need help to structure correctly*/
-.vl {
-    border-left: 6px solid darkblue;
-    height: 500px;
-    margin-left: 7%;
-}
-
-
-
-
-
-
-/* start of content sidebar */
-.content-sidebar {
-    display: flex;
-    flex-direction: wrap;
-    
-}
-
-.content-sidebar > *:nth-child(1) {
-    flex: 1 1 10%;
-    min-width: 10ch;
-
-}
-
-.content-sidebar > *:nth-child(2) {
-    flex: 1 1 90%;
-    min-width: 15ch;
-}
-.content-sidebar h1 {
-    padding-right: 15px;
-}
-
-#about-me {
-    border-right: 3px solid black;
-    text-align: right;
-}
-/* end of content sidebar */
