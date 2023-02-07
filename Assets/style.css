@@ -135,6 +135,10 @@ header nav ul {
 }
 /*END OF PORTFOLIO SECTION*/
 /*THIRD/FINAL SECTION, CONTACT ME*/
+footer{
+    overflow: hidden;
+    }
+
 #contact-me {
     text-align: center;
     position: relative;
@@ -165,3 +169,22 @@ header nav ul {
 
 
 /*END OF CONTACT ME*/
+
+
+@media only screen and (max-width: 774px) {
+   header {
+    text-align: center;
+   }
+
+   h1 {
+    margin-left: 0px;
+   }
+
+   .navigation {
+    margin-right: 30px;
+    margin-left: 30px;
+   }
+   header nav {
+float: none;
+   }
+  }

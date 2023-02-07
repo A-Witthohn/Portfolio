@@ -4,7 +4,7 @@
 
 ## User Story
 
-The purpose of this assignment is to demonstrate the knowledge learned in the UNC Bootcamp week two. This assignment specifically focuses on HTML and Advanced CSS. I was able to demostrate this by 
+The purpose of this assignment is to demonstrate the knowledge learned in the UNC Bootcamp week two. This assignment specifically focuses on HTML and Advanced CSS. I was able to demostrate this by creating from scratch an index.html file, CSS reset sheet, and style sheet. Ultilizing those tools allowed I was able to meet all the Acceptance Criteria below.
 
 
 ## Acceptance Criteria
@@ -22,17 +22,12 @@ THEN the UI scrolls to a section with titled images of the developer's applicati
 WHEN I am presented with the developer's first application
 THEN that application's image should be larger in size than the others
 WHEN I click on the images of the applications
-THEN I am taken to that deployed application
+THEN I am taken to that deployed application *(For this demonstration I used the largest image in my Portfolio Section)*
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+## Template / Demo
 
 
 ## Grading Requirements
