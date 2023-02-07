@@ -121,7 +121,7 @@ header nav ul {
 }
 
 /*LARGE IMAGE*/
-.family-shot {
+.family-shot a {
     display: flex;
     width: 100%;
 }
@@ -143,7 +143,7 @@ header nav ul {
 }
 
 /*SMALLER IMAGES*/
-.wyatt {
+.wyatt a {
     display: flex;
     float: left;
     width: 50%;
@@ -152,13 +152,14 @@ header nav ul {
 .wyatt img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
     width: 100%;
     max-width: 500px;
     height: auto;
     margin: auto;
-    padding: 40px;
-
 }
 
 .wyatt img:hover {
