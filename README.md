@@ -4,7 +4,7 @@
 
 ## User Story
 
-The purpose of this assignment is to demonstrate the knowledge learned in the UNC Bootcamp week two. This assignment specifically focuses on HTML and Advanced CSS. I was able to demostrate this by creating from scratch an index.html file, CSS reset sheet, and style sheet. Ultilizing those tools allowed I was able to meet all the Acceptance Criteria below.
+The purpose of this assignment is to demonstrate the knowledge learned in the UNC Bootcamp week two. This assignment specifically focuses on HTML and Advanced CSS. I was able to demostrate this by creating from scratch an index.html file, and style sheet, and implementing a recommended reset sheet created by Vladimir Carrer [Vladimir Carrer Reset Repo](https://github.com/vladocar/CSS-Mini-Reset). Ultilizing those tools allowed I was able to meet all the Acceptance Criteria below. Throughout the index.html file and style.css file there are comments noting where and what is happening to the page. All images are placeholders used to demostrate my understanding of tools such as flex, display, and the hover ability (hero image excluded on hover). The largest image was made a link to my demo page of the site with the intention demonstating how to use the proper link. additionally all links have had style changes and functionally tested.  
 
 
 ## Acceptance Criteria
@@ -29,58 +29,18 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Template / Demo
 
+In this section you will find three images all of which show the pages ability to be responsive at different dimensions. This page was specifically designed with three dimensions in mind. Those dimensions are as follows, Small (500x850), Medium (800x850), Large (1200x850) Each of the demo pages has a different image highlighted to reiterate the pages hover design to bring the color back to each image in the portfolio section.
 
-## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+![500x850 Demo page](./Assets/placeholder-images/Portfolio-Demo-(500x850).png)
 
-This Challenge is graded based on the following criteria: 
+  
 
-### Technical Acceptance Criteria: 40%
+![800x850 Demo Page](./Assets/placeholder-images/Portfolio-Demo-(800x850).png)
 
-* Satisfies all of the above acceptance criteria.
+  
+![1200x850](./Assets/placeholder-images/Portfolio-Demo-(1200x850)%20.png)  
 
-### Deployment: 32%
+## License
 
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
