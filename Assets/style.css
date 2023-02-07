@@ -4,23 +4,20 @@
     padding: 0;
     margin: 0;
 }
-
 body,
 html {
     height: 100%;
     width: 100%;
     background-color: rgb(191, 199, 206);
 }
-
 h3 {
     font-weight: bold;
     text-decoration: underline;
 }
-
-
 /*TOP OF PAGE*/
 /* HEADER*/
 header {
+    padding: 0px;
     padding: 5px;
     overflow: hidden;
 }
@@ -31,18 +28,14 @@ h1 {
     display: inline-block;
     margin-left: 30px;
 }
-
 /*nav menu*/
 header nav {
     float: right;
 }
-
 /*nav menu*/
 header nav ul {
     list-style-type: none;
-
 }
-
 /*nav menu*/
 .navigation {
     display: inline-block;
@@ -53,10 +46,6 @@ header nav ul {
 }
 
 /*END OF HEADER*/
-
-
-
-
 /*BANNER IMAGE, AARON HEADSHOT*/
 .hero-image {
     background-image: url(..//Assets/placeholder-images/Aaron-Headshot.jpg);
@@ -66,7 +55,6 @@ header nav ul {
     background-size: cover;
     position: relative;
 }
-
 /* text for banner, Needs to be positioned relative to banner image, BOTTOM RIGHT CORNER AT ALL TIMES */
 .hero-text {
     position: absolute;
@@ -75,12 +63,7 @@ header nav ul {
     color: aliceblue;  
     text-align: center;
 }
-
 /*END OF BANNER IMAGE*/
-
-
-
-
 /*FIRST SECTION, ABOUT ME*/
 .about-me {
     text-align: center;
@@ -90,17 +73,11 @@ header nav ul {
     margin-bottom: 25px;
     font-size: 24px;
 }
-
 .about-me-text {
     margin: 25px;
     font-size: 18px;
 }
-
 /*END FIRST SECTION*/
-
-
-
-
 /*SECOND SECTION, PORTFOLIO*/
 /*grayscales all the images, !!! IMPORTANT NEED FEATURE HOVER REMOVES GRAYSCALE !!! */
 .portfolio {
@@ -108,9 +85,7 @@ header nav ul {
     justify-content: center;
     font-size: 24px;
     overflow: hidden;
-
 }
-
 /*Centers h3 in middle of page*/
 .portfolio h3 {
     text-align: center;
@@ -119,13 +94,11 @@ header nav ul {
     margin: 25px;
     margin-bottom: 25px;
 }
-
 /*LARGE IMAGE*/
-.family-shot a {
+.family-shot {
     display: flex;
     width: 100%;
 }
-
 .family-shot img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -136,43 +109,32 @@ header nav ul {
     margin: auto;
     padding: 40px;
 }
-
 .family-shot img:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
 }
-
 /*SMALLER IMAGES*/
-.wyatt a {
+.wyatt {
     display: flex;
     float: left;
     width: 50%;
 }
-
 .wyatt img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px;
-    padding: 20px;
+    display: block;
     width: 100%;
     max-width: 500px;
     height: auto;
     margin: auto;
+    padding: 40px;
 }
-
 .wyatt img:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
 }
 /*END OF PORTFOLIO SECTION*/
-
-
-
-
 /*THIRD/FINAL SECTION, CONTACT ME*/
-
 #contact-me {
     text-align: center;
     position: relative;
@@ -180,29 +142,26 @@ header nav ul {
     display: block;
     font-size: 24px;
 }
-
 .contact-menu {
-    display: flex;
+    display: inline-block;
     list-style-type: none;
-    justify-content: center;
-}
-
-.contact-menu li{
-    margin: 25px;
-    margin-right: 25px;
+    text-align: center;
+    margin-top: 40px;
     font-size: 20px;
 }
-
+.contact-menu ul{
+    width: 100%;
+}
+.contact-menu a{
+    margin: 25px;
+}
 
 
 /* ID customizations*/
-#telephone, #email, #github, #about-me-link, #porfolio-link, #contact-me-link {
+#telephone, #email, #github, #about-me-link, #porfolio-link, #contact-me-link, #resume {
     color: black;
 }
 
 
 
 /*END OF CONTACT ME*/
-
-
-
