@@ -4,7 +4,7 @@
 
 ## User Story
 
-The purpose of this assignment is to demonstrate the knowledge learned in the UNC Bootcamp week two. This assignment specifically focuses on HTML and Advanced CSS. I was able to demostrate this by creating from scratch an index.html file, and style sheet, and implementing a recommended reset sheet created by Vladimir Carrer [Vladimir Carrer Reset Repo](https://github.com/vladocar/CSS-Mini-Reset). Ultilizing those tools allowed I was able to meet all the Acceptance Criteria below. Throughout the index.html file and style.css file there are comments noting where and what is happening to the page. All images are placeholders used to demostrate my understanding of tools such as flex, display, and the hover ability (hero image excluded on hover). The largest image was made a link to my demo page of the site with the intention demonstating how to use the proper link. additionally all links have had style changes and functionally tested.  
+The purpose of this assignment is to demonstrate the knowledge learned in the UNC Bootcamp week two. This assignment specifically focuses on HTML and Advanced CSS. I was able to demostrate this by creating from scratch an index.html file, and style sheet, and implementing a recommended reset sheet created by Vladimir Carrer [Vladimir Carrer Reset Repo](https://github.com/vladocar/CSS-Mini-Reset). Ultilizing those tools allowed I was able to meet all the Acceptance Criteria below. Throughout the index.html file and style.css file there are comments noting where and what is happening to the page. All images are placeholders used to demostrate my understanding of tools such as flex, display, and the hover ability (hero image excluded on hover). The largest image was made a link to my github/portfolio page with the intention demonstating how to use the proper link. additionally all links have had style changes and functionally tested.  
 
 
 ## Acceptance Criteria
@@ -40,6 +40,12 @@ In this section you will find three images all of which show the pages ability t
 
   
 ![1200x850](./Assets/placeholder-images/Portfolio-Demo-(1200x850)%20.png)  
+
+## Github Repo & Deployment URL
+
+[Github Repository](https://github.com/A-Witthohn/Portfolio) 
+
+[Deployment](https://a-witthohn.github.io/Portfolio/)
 
 ## License
 
