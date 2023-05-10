@@ -160,6 +160,15 @@ footer{
     margin: 25px;
 }
 
+.grayscale {
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+  }
+
+  .grayscale:hover {
+    filter: grayscale(0%);
+  }
+
 
 /* ID customizations*/
 #telephone, #email, #github, #about-me-link, #portfolio-link, #contact-me-link, #resume {
